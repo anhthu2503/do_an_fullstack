@@ -173,7 +173,7 @@ class thanhly extends Component {
                     <button type="button" class="btn btn-close" onClick={this.handleShowHiden}>
                         <i class="icofont-close-circled"></i>
                     </button>
-                    <img className="image-preview" src={this.state.file} />
+                    <img className="image-preview"  src={this.state.file} />
                 </div>
             );
         }

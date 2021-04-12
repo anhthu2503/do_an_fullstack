@@ -19,6 +19,7 @@ import TrangNDSuKien2 from './Page/TrangNDSuKien2';
 import TrangNDSuKien3 from './Page/TrangNDSuKien3';
 import TrangDocNhieu from './Page/TrangDocNhieu';
 import TrangDocNhieu1 from './Page/TrangDocNhieu1';
+import TrangLienHe from './Page/TrangLienHe';
 function App() {
   return (
     <>
@@ -62,6 +63,10 @@ function App() {
 
           <Route path='/faq.html'>
             <TrangFAQ/>
+          </Route>
+
+          <Route path='/contact.html'>
+            <TrangLienHe/>
           </Route>
 
           <Route path='/dangtin.html'>
