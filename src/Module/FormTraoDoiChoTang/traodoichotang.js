@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../Header/header';
 class traodoichotang extends Component {
     constructor (props) {
         super(props);
@@ -171,7 +172,7 @@ class traodoichotang extends Component {
                     <button type="button" class="btn btn-close" onClick={this.handleShowHiden}>
                         <i class="icofont-close-circled"></i>
                     </button>
-                    <img className="image-preview" src={this.state.file} />
+                    <img className="image-preview" alt="" src={this.state.file} />
                 </div>
             );
         }
@@ -184,6 +185,7 @@ class traodoichotang extends Component {
         }
         return (
             <div>
+                <Header/>
                 <div className="container">
                 <form id="form-traodoi-chotang" class="form-tl" onSubmit={this.handleSubmitFormTraoDoiChoTang}>
                     <div className="section-title">
@@ -204,7 +206,7 @@ class traodoichotang extends Component {
                             <p>Chọn ít nhất một ảnh</p>
                             <button type="button" class="button-img">
                                 <input type="file" id="file1" onChange={this.handleReviewImage} name="image" accept="image/*" capture />
-                                <img src="img/icon-button.png" alt="" id="choosefile" />
+                                <img src="images/icon-button.png" alt="" id="choosefile" />
                             </button>
                             {showAndHienImage}
                         </div>
@@ -223,7 +225,7 @@ class traodoichotang extends Component {
                             <label className="label-check">
                                 <i className="icofont-gift"></i>
                                 <span>Tôi muốn cho tặng miễn phí</span>
-                                {/* <input type="checkbox" checked="checked" onChange={this.handleChecked}/> */}
+                               
                                 <input type="checkbox" onChange={ this.handleChecked }/>
                             </label>
                         </div>
@@ -233,7 +235,7 @@ class traodoichotang extends Component {
                     <Link to="/">
                         <button type="submit" className="button-back" >Quay lại</button>
                     </Link>
-{/* chưa nhan vao nut đang tin ma in ra trang khac đuoc*/}
+
                 </form>
             </div>
             </div>

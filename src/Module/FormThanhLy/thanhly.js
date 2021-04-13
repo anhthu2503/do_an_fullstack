@@ -173,7 +173,7 @@ class thanhly extends Component {
                     <button type="button" class="btn btn-close" onClick={this.handleShowHiden}>
                         <i class="icofont-close-circled"></i>
                     </button>
-                    <img className="image-preview"  src={this.state.file} />
+                    <img className="image-preview" alt=""  src={this.state.file} />
                 </div>
             );
         }
@@ -201,7 +201,7 @@ class thanhly extends Component {
                             <p>Chọn ít nhất một ảnh</p>
                             <button type="button" class="button-img">
                                 <input type="file" id="file1" onChange={this.handleReviewImage} value={this.state.image}  name="image" accept="image/*" capture />
-                                <img src="img/icon-button.png" alt="" id="choosefile" />
+                                <img src="images/icon-button.png" alt="" id="choosefile" />
                             </button>
                             {showAndHienImage}
                         </div>

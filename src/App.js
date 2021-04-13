@@ -10,6 +10,7 @@ import TrangGioiThieu from './Page/TrangGioiThieu';
 import TrangDangTin from './Page/TrangDangTin';
 import TrangFAQ from './Page/TrangFAQ';
 import TrangHome from './Page/TrangHome';
+import TrangSach from './Page/TrangSach';
 import TrangThanhLy from './Page/TrangThanhLy';
 import TrangTraoDoiChoTang from './Page/TrangTraoDoiChoTang';
 import TrangSuKien from './Page/TrangSuKien';
@@ -77,6 +78,9 @@ function App() {
             <TrangGioiThieu/>
           </Route>
 
+          <Route path='/women.html'>
+            <TrangSach/>
+          </Route>
           <Route path='/'>
             <TrangHome/>
           </Route>
