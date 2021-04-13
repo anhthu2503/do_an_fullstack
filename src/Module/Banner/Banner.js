@@ -101,7 +101,7 @@ const Banner = () => {
                         <img class="img-fluid" src="images/7dfc714db29e40c0198f.jpg" alt="" />
                         <div class="overlay">
                             <h5>Blogging</h5>
-                            <a class="info" href="blog.html">Tham gia</a>
+                            <a class="info" href="dangtin.html">Tham gia</a>
                         </div>
                     </div>
                 </div>

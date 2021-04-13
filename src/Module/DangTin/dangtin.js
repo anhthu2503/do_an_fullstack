@@ -4,7 +4,10 @@ const dangtin = () => {
     return (
         <>
             <div className="container">
-                <h2>Đăng tin</h2>
+                <div className="section-title">
+                    <span>ĐĂNG TIN</span>
+                    <h2>ĐĂNG TIN</h2>
+                </div>
                 <form className="form-dang-tin">
                     <div className="title">
                         <p>Lựa chọn danh mục đăng tin</p>

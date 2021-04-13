@@ -2005,4 +2005,15 @@ ul.bottom-links-agile li :hover{
     height: 500px;
     width: 630px;
 }
+
+.set-height {
+    height: 800px;
+  }
+  
+.set-span {
+color: red;
+font-size: 30px;
+}
+
+
 /* -- //Responsive code -- */
