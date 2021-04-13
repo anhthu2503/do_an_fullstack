@@ -5,7 +5,6 @@ import Banner from '../Module/Banner/Banner';
 import BookHot from '../Module/Hot/BookHot';
 import StoryHot from '../Module/Hot/StoryHot';
 import Footer from '../Module/Footer/footer';
-import Featured from '../Module/Featured/Featured';
 
 const TrangHome = () => {
     return (
@@ -13,7 +12,6 @@ const TrangHome = () => {
             <Header/>
             <Carousel/>
             <Banner/>
-            <Featured />
             <BookHot />
             <StoryHot/>
             <Footer/>
