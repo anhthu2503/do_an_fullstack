@@ -4,10 +4,10 @@ const StoryHot = () => {
     return (
         <div>
             <section class="tabs_pro py-md-5 pt-sm-3 pb-5" id="storyhot">
-            <h5 class="head_agileinfo text-center text-capitalize pb-5">
-                <span>Truyện</span> Hot
-            </h5>
-            <div class="tabs tabs-style-line pt-md-5">
+                <h5 class="head_agileinfo text-center text-capitalize pb-5">
+                    <span>Truyện</span> Hot
+                </h5>
+                <div class="tabs tabs-style-line pt-md-5">
                 
                
                 <div id="clothing-nav-content" class="tab-content py-sm-5">
@@ -36,43 +36,43 @@ const StoryHot = () => {
                                 
                                     <div class="card-footer d-flex justify-content-end">
                                         <div class="caption">
-                                        
-                                                <ul class="ratingfocus">
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        (348)
-                                                    </li>
-                                                </ul>
-                                                <img src="./images/logobanhang.png"/>
-                                                <a class="cheap">Cheaper refunds</a>
-                                                <br/>
-                                                <img src="./images/basic-rgb-162294976 (2).jpg"/>
-                                                <a class="cheap">Free ship now</a>
-                                                <div class="clearfix"> </div>
+                                    
+                                            <ul class="ratingfocus">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    (348)
+                                                </li>
+                                            </ul>
+                                            <img src="./images/logobanhang.png"/>
+                                            <a class="cheap">Cheaper refunds</a>
+                                            <br/>
+                                            <img src="./images/basic-rgb-162294976 (2).jpg"/>
+                                            <a class="cheap">Free ship now</a>
+                                            <div class="clearfix"> </div>
                                          
                                         </div>
                                         <hr/>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Shop from '../Module/Book/shop';
-class TrangSach extends Component {
+import Shop from '../Module/Book/storyshop';
+class TrangTruyen extends Component {
     render() {
         return (
             <>
@@ -11,4 +11,4 @@ class TrangSach extends Component {
     }
 }
 
-export default TrangSach;
+export default TrangTruyen;

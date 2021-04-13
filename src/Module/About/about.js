@@ -22,7 +22,9 @@ const about = () => {
                                         <div class="bott-img agileits w3layouts">
                                             <div class="icon-holder agileits w3layouts">
                                                 <span class="fa fa-search agileits w3layouts service-icon" aria-hidden="true"></span>
+                                                
                                             </div>
+                                            
                                             <h4 class="mission agileits w3layouts">Tham quan nhiều hơn</h4>
                                             <div class="description agileits w3layouts">
                                                 <a href="./about.html">Đi đến</a>

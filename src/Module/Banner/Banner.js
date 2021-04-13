@@ -80,7 +80,7 @@ const Banner = () => {
             <div class="row no-gutters pb-5">
                 <div class="col-sm-4">
                     <div class="hovereffect">
-                        <img class="img-fluid" src="images/pexels-photo-5530727 (1).jpeg" alt="" />
+                        <img class="img-fluid" src="images/122b2e21f1f203ac5ae3.jpg" alt="" />
                         <div class="overlay">
                             <h5>Featured books</h5>
                             <a class="info" href="women.html">Mua ngay</a>
@@ -98,7 +98,7 @@ const Banner = () => {
                 </div>
                 <div class="col-sm-4">
                     <div class="hovereffect">
-                        <img class="img-fluid" src="images/pexels-photo-2228560 (3).jpeg" alt="" />
+                        <img class="img-fluid" src="images/7dfc714db29e40c0198f.jpg" alt="" />
                         <div class="overlay">
                             <h5>Blogging</h5>
                             <a class="info" href="blog.html">Tham gia</a>
