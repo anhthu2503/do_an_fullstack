@@ -11,7 +11,7 @@ const header = () => {
                         <h1 class="agile_btxt">
                             <a href="./index.html">
                                 <span class="agile_btxtaas">๖ۣۜ𝓑</span>.𝓢𝓽𝓸𝓻𝓮
-                    </a>
+                            </a>
                         </h1>
 
                         <div class="w3ls_right_nav ml-auto d-flex">

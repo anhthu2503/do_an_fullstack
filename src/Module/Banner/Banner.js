@@ -66,7 +66,7 @@ const Banner = () => {
                         <li class="banner banner3">
                             <div class="container">
                                 <h3 class="agile_btxt">
-                                    <span><img src="./images/logobanner-removebg-preview.png" /></span>𝓸𝓸𝓴
+                                    <span><img src="./images/logobanner-removebg-preview.png" alt="" /></span>𝓸𝓸𝓴
                             <span>𝓢</span>𝓽𝓸𝓻𝓮
                         </h3>
                                 <h4 class="w3_bbot1">kho tàng kiến thức...</h4>

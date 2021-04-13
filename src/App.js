@@ -22,6 +22,7 @@ import TrangDocNhieu from './Page/TrangDocNhieu';
 import TrangDocNhieu1 from './Page/TrangDocNhieu1';
 import TrangLienHe from './Page/TrangLienHe';
 import TrangTruyen from './Page/TrangTruyen';
+
 function App() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Module/Header/header';
 import Contact from '../Module/Contact/Contact';
-
+import Footer from '../Module/Footer/footer';
 
 class TrangLienHe extends Component {
     render() {
@@ -10,6 +10,7 @@ class TrangLienHe extends Component {
 
                 <Header/>
                 <Contact />
+                <Footer />
             </>
         );
     }
